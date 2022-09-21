@@ -16,6 +16,7 @@ public void openAppl()
 	driver=new FirefoxDriver();
 	driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 	driver.get(base_url);
+	//commentss
 	
 }
 @AfterMethod
