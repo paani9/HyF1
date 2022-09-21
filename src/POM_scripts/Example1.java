@@ -18,6 +18,7 @@ public class Example1 {
 	public class CreateExamTest extends BaseClass {
 		@Test
 		public void createExamTest() {
+			//comment
 
 			String examname = "exam" + jb.getRandomNumber(10000);
 			Allexampage ad = new Allexampage(driver);
